@@ -11,7 +11,7 @@ dxdt = @(t, X) [r1*X(1) - a1*X(1)^2 - v1*X(1)*X(2);
                 r2*X(2) - a2*X(2)^2 - v2*X(1)*X(2)];
 
 % Kondisi awal
-x0 = [100; 5]; % x(0) = [mangsa;predator]
+x0 = [10; 5]; % x(0) = [mangsa;predator]
 tspan = [0 50]; % Rentang waktu
 
 % Solusi numerik menggunakan ode45
